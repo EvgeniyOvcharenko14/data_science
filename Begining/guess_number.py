@@ -20,7 +20,7 @@ def random_predict(number:int=1) -> int:
     return(count)
 
 
-def score_game(random_predict) -> int:
+def score_game() -> int:
     """За какое количество попыток в среднем из 1000 подходов угадывает наш алгоритм
 
     Args:
@@ -43,4 +43,4 @@ def score_game(random_predict) -> int:
     return(score)
 
 # RUN
-score_game(random_predict)
+score_game()
